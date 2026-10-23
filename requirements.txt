@@ -1,0 +1,20 @@
+# Dependencias exactas para Sonora - Smart Music Metadata Parser
+# Stack de procesamiento de texto y catálogos musicales (Python 3.10+)
+
+# Parseo de patrones, versiones, artistas invitados y ruido
+trackparse==0.3.3
+
+# Fuzzy matching y normalización tolerante a erratas
+rapidfuzz==3.14.5
+
+# Consulta especializada al catálogo de MusicBrainz (búsqueda bidireccional)
+musicbrainzngs==0.7.1
+
+# Validación cruzada en el catálogo especializado de Discogs
+# Nota de empaquetado: En PyPI el paquete se instala como 'discogs-client' e importa 'discogs_client'
+discogs-client==2.3.0
+
+# Lectura y escritura de metadatos/tags de archivos de audio
+mutagen==1.48.1
+
+# Nota: sqlite3 forma parte de la biblioteca estándar de Python (no requiere pip)

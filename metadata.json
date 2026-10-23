@@ -1,0 +1,6 @@
+{
+  "name": "Sonora - Smart Music Metadata Parser",
+  "description": "Módulo inteligente de extracción, normalización fuzzy y resolución de metadatos y géneros musicales con MusicBrainz, Discogs y SQLite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
